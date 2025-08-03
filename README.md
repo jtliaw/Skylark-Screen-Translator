@@ -104,3 +104,11 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 你可以自由安装任意 Argos 语言包组合（单向），Skylark 将为你自动处理所有翻译路径细节。
 
 
+
+🙏 鸣谢
+
+    💬 Argos Translate — 开源的高质量离线翻译引擎
+
+    👓 Tesseract OCR — Google 出品的 OCR 引擎
+
+    🎨 Qt + PyQt5 — 现代化桌面图形界面开发库
