@@ -1,5 +1,5 @@
 
-<img width="1024" height="1024" alt="skylark" src="https://github.com/user-attachments/assets/9240dfc4-aff1-4b8d-975f-54881e4b9e63" />
+<img width="256" height="256" alt="skylark" src="https://github.com/user-attachments/assets/9240dfc4-aff1-4b8d-975f-54881e4b9e63" />
 
 🌤 Skylark Screen Translator
 
