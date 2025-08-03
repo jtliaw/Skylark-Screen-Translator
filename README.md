@@ -106,6 +106,7 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 🧹 卸载说明
 
 运行以下命令即可卸载本软件及其配置：
+
     chmod +x Uninstall_LinuxSkylarkTranslator.sh
     
     ./Uninstall_LinuxSkylarkTranslator.sh
