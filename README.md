@@ -107,8 +107,8 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 
 🙏 鸣谢
 
-    💬 Argos Translate — 开源的高质量离线翻译引擎
+💬 Argos Translate — 开源的高质量离线翻译引擎
 
-    👓 Tesseract OCR — Google 出品的 OCR 引擎
+👓 Tesseract OCR — Google 出品的 OCR 引擎
 
-    🎨 Qt + PyQt5 — 现代化桌面图形界面开发库
+🎨 Qt + PyQt5 — 现代化桌面图形界面开发库
