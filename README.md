@@ -31,7 +31,7 @@ Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工
 
 在终端中运行以下命令进行安装：
 
-./Install_LinuxSkylarkTranslator.sh
+    ./Install_LinuxSkylarkTranslator.sh
 
 安装完成后，系统会自动配置所需环境，并在桌面创建图标。点击桌面图标即可快速启动。
 📥 第一次使用指南
