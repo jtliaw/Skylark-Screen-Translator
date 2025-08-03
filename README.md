@@ -40,6 +40,7 @@ Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工
 🔄 一键安装 / 卸载脚本支持（Linux）
 
 ---
+注意老旧电脑无法使用，CPU必须是SSE4.1以上!
 
 🧰 安装方式（Linux）
 
