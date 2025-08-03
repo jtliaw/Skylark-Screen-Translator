@@ -11,6 +11,9 @@ Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工
 
 ---
 📷 界面截图
+
+
+
 <img width="640" height="382" alt="截图_2025-08-03_17-38-20" src="https://github.com/user-attachments/assets/88c3d27b-f170-429f-9f04-475b80a56870" />
 
 
