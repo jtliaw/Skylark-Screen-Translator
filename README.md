@@ -5,7 +5,7 @@
 
 
 # 🌤 Skylark Screen Translator
-Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工具，结合 OCR 与 Argos Translate，可翻译高达 30 多种语言，并采用智能翻译路径选择机制，无需用户手动配置转换路径。
+Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工具，结合 OCR 与 Argos/Google/DeepL/Baidu/Azure Translate，可翻译高达 30 多种语言，并采用智能翻译路径选择机制，无需用户手动配置转换路径。
 
 “Skylark” 是自由飞翔的云雀 —— 象征自由、轻盈与语言无界限的传达体验。
 
