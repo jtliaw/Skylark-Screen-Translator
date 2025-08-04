@@ -128,7 +128,7 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 | 🌐 Google 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
 | 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
-| 🌐 微软翻译      | ✅ 需要 API 密钥     | [Azure Translator 文档](https://azure.microsoft.com/cognitive-services/translator/) |
+| 🌐 微软翻译      | ✅ 需要 API 密钥     | [Azure Translator 文档]( https://azure.microsoft.com/products/cognitive-services/translator/) |
 
 ---
 
