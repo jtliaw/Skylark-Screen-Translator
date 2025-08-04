@@ -134,7 +134,6 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 
 🧑‍💻 技术说明
 
-🐍 编程语言：使用 Python + PyQt5 构建现代图形用户界面
 
 💻 支持平台：当前版本支持 Linux 系统（建议 Debian/Ubuntu 系）
 
