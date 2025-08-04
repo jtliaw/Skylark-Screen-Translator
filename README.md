@@ -123,15 +123,12 @@ Skylark Translator 内建“自动中转翻译路径智能选择”功能：
 你可以自由安装任意 Argos 语言包组合（单向），Skylark 将为你自动处理所有翻译路径细节。
 
 ---
-
-🌐 在线翻译支持
-
-除了离线的 Argos Translate 引擎，Skylark 现在也支持 在线翻译服务，适用于更高精度或更多语言方向的翻译需求：
-平台	是否需要 API 密钥	注册/获取地址
-🌐 Google 翻译	❌ 无需密钥	内置公共接口，无需注册
-🌐 DeepL 翻译	✅ 需要 API 密钥	DeepL Pro 注册
-🌐 百度翻译	✅ 需要 APP ID 与密钥	百度翻译开放平台
-🌐 微软翻译	✅ 需要 API 密钥	Azure Translator 文档
+| 平台           | 是否需要 API 密钥     | 注册/获取地址                                                                           |
+| ------------ | --------------- | --------------------------------------------------------------------------------- |
+| 🌐 Google 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
+| 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
+| 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
+| 🌐 微软翻译      | ✅ 需要 API 密钥     | [Azure Translator 文档](https://azure.microsoft.com/cognitive-services/translator/) |
 
 ---
 
