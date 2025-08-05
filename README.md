@@ -124,9 +124,11 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 ## 💬 鸣谢
 
-Argos Translate - 强大的离线翻译引擎
 
-Tesseract OCR - Google 开源 OCR 识别工具
+
+    Argos Translate - 强大的离线翻译引擎
+
+    Tesseract OCR - Google 开源 OCR 识别工具
 
 
 ## 📄 开源协议
