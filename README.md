@@ -2,17 +2,16 @@
 
 <div align="center">
 
-![Skylark Logo](<img width="1024" height="1024" alt="Gemini_Generated_Image_c7lzf7c7lzf7c7lz" src="https://github.com/user-attachments/assets/419ce465-0a78-41f1-818a-e1bd936de0ce" />
-)
+<img width="256" height="256" alt="Gemini_Generated_Image_c7lzf7c7lzf7c7lz" src="https://github.com/user-attachments/assets/695a5db9-c9c2-433c-984b-6aa2331d60dc" />
+
 
 **✨ 由 AI 协作开发的智能屏幕翻译工具 ✨**
 
 *像云雀一样自由飞翔，突破语言的边界*
+<img width="640" height="400" alt="截图_2025-08-03_17-38-20" src="https://github.com/user-attachments/assets/507ea534-63a6-47be-a5d4-7869381596cc" />
 
-[![Linux](https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux)](https://github.com/jtliaw/Skylark-Screen-Translator)
-[![Python](https://img.shields.io/badge/Language-Python-green?style=for-the-badge&logo=python)](https://github.com/jtliaw/Skylark-Screen-Translator)
-[![OCR](https://img.shields.io/badge/OCR-Tesseract-orange?style=for-the-badge)](https://github.com/jtliaw/Skylark-Screen-Translator)
-[![Translation](https://img.shields.io/badge/Translation-Multi--Engine-purple?style=for-the-badge)](https://github.com/jtliaw/Skylark-Screen-Translator)
+<img width="640" height="400" alt="截图_2025-08-03_17-40-28" src="https://github.com/user-attachments/assets/ce3c6423-a321-40ba-8f21-7a5d3fb12f29" />
+
 
 </div>
 
