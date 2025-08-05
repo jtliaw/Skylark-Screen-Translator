@@ -137,9 +137,6 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 <div align="center">
 
-**🎉 立即体验 Skylark，让语言不再是障碍！**
-
-[⬇️ 立即下载](https://github.com/jtliaw/Skylark-Screen-Translator/releases) | [📖 详细文档](https://github.com/jtliaw/Skylark-Screen-Translator/wiki) | 
 
 *像云雀一样自由翱翔，在语言的天空中无拘无束* 🦅
 
