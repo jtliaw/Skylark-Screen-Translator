@@ -1,148 +1,158 @@
-<img width="256" height="256" alt="skylark" src="https://github.com/user-attachments/assets/235f3cbf-3bfb-4ad9-b62d-9977126fdec4" />
+# 🚀 Skylark Screen Translator
 
+<div align="center">
 
+![Skylark Logo](https://private-user-images.githubusercontent.com/4332185/473764087-235f3cbf-3bfb-4ad9-b62d-9977126fdec4.png)
 
+**✨ 由 AI 协作开发的智能屏幕翻译工具 ✨**
 
+*像云雀一样自由飞翔，突破语言的边界*
 
-# 🌤 Skylark Screen Translator
-Skylark Screen Translator 是一款简洁美观、操作直觉的屏幕翻译工具，结合 OCR 与 Argos/Google/DeepL/Baidu/Azure Translate，可翻译高达 30 多种语言，并采用智能翻译路径选择机制。
+[![Linux](https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge&logo=linux)](https://github.com/jtliaw/Skylark-Screen-Translator)
+[![Python](https://img.shields.io/badge/Language-Python-green?style=for-the-badge&logo=python)](https://github.com/jtliaw/Skylark-Screen-Translator)
+[![OCR](https://img.shields.io/badge/OCR-Tesseract-orange?style=for-the-badge)](https://github.com/jtliaw/Skylark-Screen-Translator)
+[![Translation](https://img.shields.io/badge/Translation-Multi--Engine-purple?style=for-the-badge)](https://github.com/jtliaw/Skylark-Screen-Translator)
 
-“Skylark” 是自由飞翔的云雀 —— 象征自由、轻盈与语言无界限的传达体验。
-
----
-📷 界面截图
-
-
-
-<img width="640" height="382" alt="截图_2025-08-03_17-38-20" src="https://github.com/user-attachments/assets/88c3d27b-f170-429f-9f04-475b80a56870" />
-
-
-<img width="640" height="382" alt="截图_2025-08-03_17-40-28" src="https://github.com/user-attachments/assets/4a0f96f8-4868-49be-ab7c-84de34b4774d" />
+</div>
 
 ---
 
-✨ 功能特色
+## 🌟 为什么选择 Skylark？
 
-📷 任意屏幕区域文字识别（OCR）
+🎯 **一键翻译任何屏幕内容** - 游戏、网页、文档、图片...随心所欲  
+🧠 **AI 智能路径选择** - 自动寻找最快最准确的翻译路径  
+🌍 **30+ 语言支持** - 涵盖主流语言，满足全球化需求  
+⚡ **极速体验** - 离线OCR + 多引擎翻译，毫秒级响应  
+🎨 **现代化界面** - 简约美观，操作直观，无学习成本  
 
-🌍 支持多语言离线翻译
+## 📸 实际效果展示
 
-⚡️ 自动选择最快翻译路径（包括中转）
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://private-user-images.githubusercontent.com/4332185/473768272-88c3d27b-f170-429f-9f04-475b80a56870.png" alt="主界面截图"/>
+<br><strong>🎮 主界面 - 简约现代</strong>
+</td>
+<td width="50%" align="center">
+<img src="https://private-user-images.githubusercontent.com/4332185/473768336-4a0f96f8-4868-49be-ab7c-84de34b4774d.png" alt="翻译效果"/>
+<br><strong>🌐 实时翻译效果</strong>
+</td>
+</tr>
+</table>
 
-🧠 内置语言包 / OCR 模型管理与自动下载
+## 🚀 核心特性
 
-🖱 全滑鼠操作：右键翻译、左键显示/隐藏翻译框
+### 🎯 智能翻译系统
+- **🔄 智能中转翻译** - 当直接翻译路径不存在时，自动选择最优中转路径
+- **⚡ 多引擎融合** - 支持 Argos (离线) + Google/DeepL/百度/微软 (在线)
+- **🧠 路径优化算法** - 优先使用直接翻译，提升速度和准确率
 
-🪟 现代简约风格图形界面
+### 🖱️ 极简操作体验
+- **框选翻译** - 左键拖拽框选，右键双击翻译
+- **一键隐藏** - 左键单击显示/隐藏翻译窗口
+- **滚轮浏览** - 鼠标滚轮查看完整翻译内容
 
-🖥 安装后自动创建桌面图标，一键启动
+### 🔧 强大的引擎支持
 
-🔄 一键安装 / 卸载脚本支持（Linux）
+| 翻译引擎 | 类型 | API密钥 | 特点 |
+|---------|------|---------|------|
+| 🔴 **Argos Translate** | 离线 | ❌ 不需要 | 隐私保护，无网络依赖 |
+| 🟢 **Google Translate** | 在线 | ❌ 不需要 | 内置公共接口，开箱即用 |
+| 🔵 **DeepL** | 在线 | ✅ 需要 | 高质量翻译，专业首选 |
+| 🟡 **百度翻译** | 在线 | ✅ 需要 | 中文优化，本土化支持 |
+| 🟣 **微软翻译** | 在线 | ✅ 需要 | 企业级稳定性 |
+
+## ⚡ 5分钟快速开始
+
+### 📦 一键安装
+```bash
+# 下载并运行安装脚本
+chmod +x Install_LinuxSkylarkTranslator.sh
+./Install_LinuxSkylarkTranslator.sh
+```
+
+### 🎯 首次配置
+1. **启动软件** - 点击桌面图标
+2. **安装语言包** - 进入【语言包管理】，选择需要的翻译方向
+3. **重启软件** - 在【设置语言】中选择翻译方向
+4. **开始使用** - 框选屏幕区域，右键双击翻译！
+
+### 🗑️ 一键卸载
+```bash
+chmod +x Uninstall_LinuxSkylarkTranslator.sh
+./Uninstall_LinuxSkylarkTranslator.sh
+```
+
+## 🌍 支持的语言
+
+**主流语言全覆盖**：英语 🇺🇸 | 中文 🇨🇳 | 日语 🇯🇵 | 韩语 🇰🇷 | 法语 🇫🇷 | 德语 🇩🇪 | 西班牙语 🇪🇸 | 俄语 🇷🇺 | 意大利语 🇮🇹 | 葡萄牙语 🇵🇹
+
+**30+ 语言完整支持** - 你可以自由组合任意语言对，Skylark 的智能路径系统会自动处理所有技术细节！
+
+## 🧠 AI 智能中转翻译
+
+### 🔄 智能路径选择算法
+
+```
+情况1: 直接翻译路径存在
+日语 → 中文 ✅ 直接翻译（最快最准）
+
+情况2: 需要中转翻译
+日语 → 中文 ❌ 直接路径不存在
+↓ AI自动选择最优路径
+日语 → 英语 → 中文 ✅ 自动中转翻译
+```
+
+**🎯 零配置智能化** - 你只需要选择"我要从日语翻译到中文"，剩下的路径规划全部交给 Skylark！
+
+## 💻 技术架构
+
+### 🏗️ 核心技术栈
+- **🐍 Python + PyQt5** - 现代化桌面应用开发
+- **👁️ Tesseract OCR** - Google 出品的开源OCR引擎
+- **🌐 Argos Translate** - 高质量离线翻译引擎
+- **🔗 多API集成** - 统一的在线翻译服务接口
+
+### ⚙️ 系统要求
+- **🐧 操作系统**: Linux (推荐 Ubuntu/Debian)
+- **💾 处理器**: 支持 SSE4.1 指令集
+- **🌐 网络**: 可选（离线翻译无需网络）
+
+## 🤝 开发故事
+
+这个项目是 **DeepSeek** 和 **Claude** 两个AI助手协作开发的成果，展现了AI协作开发的无限可能：
+
+- 🧠 **智能算法设计** - AI设计的路径选择算法
+- 🎨 **用户体验优化** - AI优化的界面和交互设计  
+- 🔧 **代码架构** - AI协作完成的模块化架构
+- 📚 **文档编写** - AI编写的详细文档和说明
+
+## 🌟 贡献与支持
+
+### 🔗 快速链接
+- **📋 问题反馈**: [GitHub Issues](https://github.com/jtliaw/Skylark-Screen-Translator/issues)
+- **💡 功能建议**: [GitHub Discussions](https://github.com/jtliaw/Skylark-Screen-Translator/discussions)
+- **📖 详细文档**: [项目Wiki](https://github.com/jtliaw/Skylark-Screen-Translator/wiki)
+
+### 🤝 参与开发
+欢迎提交 Pull Request！无论是：
+- 🐛 Bug修复
+- ✨ 新功能开发  
+- 📝 文档改进
+- 🌍 多语言支持
+
+## 📄 开源协议
+
+本项目采用开源协议发布，欢迎自由使用、修改和分发。
 
 ---
-注意老旧电脑无法使用，CPU必须是SSE4.1以上!
 
-🧰 安装方式（Linux）
+<div align="center">
 
-在终端中运行以下命令进行安装：
-    
-    
-    chmod +x Install_LinuxSkylarkTranslator.sh
-    
-    ./Install_LinuxSkylarkTranslator.sh
+**🎉 立即体验 Skylark，让语言不再是障碍！**
 
-安装完成后，系统会自动配置所需环境，并在桌面创建图标。点击桌面图标即可快速启动。
+[⬇️ 立即下载](https://github.com/jtliaw/Skylark-Screen-Translator/releases) | [📖 详细文档](https://github.com/jtliaw/Skylark-Screen-Translator/wiki) | [💬 交流讨论](https://github.com/jtliaw/Skylark-Screen-Translator/discussions)
 
----
+*像云雀一样自由翱翔，在语言的天空中无拘无束* 🦅
 
-📥 第一次使用指南
-
-启动软件后，点击【语言包管理】。
-
-至少安装一种你所需要的语言翻译方向，例如：
-
-英语 ➜ 中文
-
-日语 ➜ 英语
-
-英语 ➜ 法语
-
-安装完成后请重新启动软件，即可在【设置语言】中选择你需要的翻译方向。
-
----
-
-🔁 关于 Argos Translate 的翻译机制
-
-Argos Translate 的语言包为单向翻译包，即：
-
-“日语 ➜ 中文”与“中文 ➜ 日语”是两个完全不同的包。
-
-并非所有语言对都直接支持双向翻译。
-
-🌟 Skylark 的中转翻译机制
-
-Skylark Translator 内建“自动中转翻译路径智能选择”功能：
-
-当你需要翻译如“日语 ➜ 中文”而 Argos 没有提供直接翻译包时，软件将自动采用如下路径：
-
-日语 ➜ 英语 ➜ 中文
-
-若系统中同时安装了“日语 ➜ 英语”与“英语 ➜ 中文”的语言包，程序将自动组合路径进行中转翻译，无需用户手动设定。
-
-若存在直接语言包（如“英语 ➜ 中文”），则会优先采用直接翻译以提升速度与准确率。
-
----
-
-🖱 操作方式说明
-
-左键拖曳	框选屏幕任意区域
-
-滑鼠右键双击	执行 OCR + 翻译，显示结果
-
-滑鼠左键单击	隐藏或重新显示翻译窗口
-
-滑鼠滚轮  可以显示被遮挡的翻译内容
-
----
-🧹 卸载说明
-
-运行以下命令即可卸载本软件及其配置：
-
-    chmod +x Uninstall_LinuxSkylarkTranslator.sh
-    
-    ./Uninstall_LinuxSkylarkTranslator.sh
-
----
-
-📌 支持语言
-
-已支持超过 30 种语言，包括但不限于：
-
-英语、中文、日语、韩语、法语、德语、西班牙语、俄语、意大利语、葡萄牙语……
-
-你可以自由安装任意 Argos 语言包组合（单向），Skylark 将为你自动处理所有翻译路径细节。
-
----
-| 平台           | 是否需要 API 密钥     | 注册/获取地址                                                                           |
-| ------------ | --------------- | --------------------------------------------------------------------------------- |
-| 🌐 Google 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
-| 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
-| 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
-| 🌐 微软翻译      | ✅ 需要 API 密钥     | [Azure Translator 文档]( https://azure.microsoft.com/products/cognitive-services/translator/) |
-
----
-
-🧑‍💻 技术说明
-
-
-💻 支持平台：当前版本支持 Linux 系统（建议 Debian/Ubuntu 系）
-
-📦 安装脚本会自动创建桌面图标，一键启动，无需手动配置环境
-
----
-
-## 🙏 鸣谢
-
-- 💬 [Argos Translate](https://github.com/argosopentech/argos-translate) — 开源的高质量离线翻译引擎  
-- 👓 [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) — Google 出品的 OCR 引擎  
-- 🎨 [Qt](https://www.qt.io/) + [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) — 现代化桌面图形界面开发库
+</div>
