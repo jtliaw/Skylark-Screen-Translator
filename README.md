@@ -8,7 +8,13 @@
 **✨ 由 AI 协作开发的智能屏幕翻译工具 ✨**
 
 *像云雀一样自由飞翔，突破语言的边界*
+
+
+
 <img width="640" height="400" alt="截图_2025-08-03_17-38-20" src="https://github.com/user-attachments/assets/507ea534-63a6-47be-a5d4-7869381596cc" />
+
+
+
 
 <img width="640" height="400" alt="截图_2025-08-03_17-40-28" src="https://github.com/user-attachments/assets/ce3c6423-a321-40ba-8f21-7a5d3fb12f29" />
 
