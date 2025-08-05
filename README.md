@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<img width="256" height="256" alt="Gemini_Generated_Image_c7lzf7c7lzf7c7lz" src="https://github.com/user-attachments/assets/38312ef2-4013-48b3-89f1-41086065dd76" />
-
+![Skylark Logo](<img width="1024" height="1024" alt="Gemini_Generated_Image_c7lzf7c7lzf7c7lz" src="https://github.com/user-attachments/assets/419ce465-0a78-41f1-818a-e1bd936de0ce" />
+)
 
 **✨ 由 AI 协作开发的智能屏幕翻译工具 ✨**
 
