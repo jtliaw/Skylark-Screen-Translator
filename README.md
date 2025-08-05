@@ -31,20 +31,7 @@
 ⚡ **极速体验** - 离线OCR + 多引擎翻译，毫秒级响应  
 🎨 **现代化界面** - 简约美观，操作直观，无学习成本  
 
-## 📸 实际效果展示
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://private-user-images.githubusercontent.com/4332185/473768272-88c3d27b-f170-429f-9f04-475b80a56870.png" alt="主界面截图"/>
-<br><strong>🎮 主界面 - 简约现代</strong>
-</td>
-<td width="50%" align="center">
-<img src="https://private-user-images.githubusercontent.com/4332185/473768336-4a0f96f8-4868-49be-ab7c-84de34b4774d.png" alt="翻译效果"/>
-<br><strong>🌐 实时翻译效果</strong>
-</td>
-</tr>
-</table>
 
 ## 🚀 核心特性
 
