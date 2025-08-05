@@ -53,7 +53,7 @@
 | 🌐 Google 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
 | 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
-| | 🌐 微软翻译   | ✅ 需要 API 密钥      | [注册获取密钥（Azure Portal）](https://portal.azure.com/) \| [服务说明](https://azure.microsoft.com/products/cognitive-services/translator/) |
+| 🌐 微软翻译   | ✅ 需要 API 密钥      | [注册获取密钥（Azure Portal）](https://portal.azure.com/) | 
  |
 
 
