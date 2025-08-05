@@ -11,12 +11,9 @@
 
 
 
-<img width="640" height="400" alt="截图_2025-08-03_17-38-20" src="https://github.com/user-attachments/assets/507ea534-63a6-47be-a5d4-7869381596cc" />
+![Peek 2025-08-05 16-25](https://github.com/user-attachments/assets/c6e22684-0fbc-4063-b616-ce879cce110d)
 
 
-
-
-<img width="640" height="400" alt="截图_2025-08-03_17-40-28" src="https://github.com/user-attachments/assets/ce3c6423-a321-40ba-8f21-7a5d3fb12f29" />
 
 
 </div>
