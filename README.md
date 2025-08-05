@@ -122,13 +122,12 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 - 🔧 **代码架构** - AI协作完成的模块化架构
 - 📚 **文档编写** - AI编写的详细文档和说明
 
+## 💬 鸣谢
 
-### 🤝 参与开发
-欢迎提交 Pull Request！无论是：
-- 🐛 Bug修复
-- ✨ 新功能开发  
-- 📝 文档改进
-- 🌍 多语言支持
+Argos Translate - 强大的离线翻译引擎
+
+Tesseract OCR - Google 开源 OCR 识别工具
+
 
 ## 📄 开源协议
 
