@@ -126,7 +126,15 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 - 💬 [Argos Translate](https://github.com/argosopentech/argos-translate) — 开源的高质量离线翻译引擎  
 - 👓 [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) — Google 出品的 OCR 引擎  
-- 🎨 [Qt](https://www.qt.io/) + [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) — 现代化桌面图形界面开发库
+- 🎨 [Qt](https://www.qt.io/) + [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) — 现代化图形界面开发库
+
+### 🌐 在线翻译服务鸣谢
+
+- 🌐 [Google 翻译](https://translate.google.com/) — 使用公开接口实现在线翻译（无需 API 密钥）  
+- 🌐 [DeepL 翻译](https://www.deepl.com/pro-api) — 高质量神经翻译服务（通过 API 接入）  
+- 🌐 [百度翻译](https://fanyi-api.baidu.com/) — 百度开放平台提供的翻译 API 接口  
+- 🌐 [Microsoft Translator](https://azure.microsoft.com/products/cognitive-services/translator/) — Azure 提供的多语言在线翻译服务
+
 
 
 ## 📄 开源协议
