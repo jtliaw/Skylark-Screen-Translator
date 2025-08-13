@@ -143,6 +143,10 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 <div align="center">
 
+## 📦 自定义打包
+
+想要打包包含特定语言的 AppImage？请查看：[AppImage 打包指南](BUILD_GUIDE.md)
+
 
 *像云雀一样自由翱翔，在语言的天空中无拘无束* 🦅
 
