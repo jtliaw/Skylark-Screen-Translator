@@ -2,7 +2,7 @@
 
 ## 快速开始
 
-本项目提供了 `build_appimage.sh` 脚本，可以让用户根据自己的需求打包包含特定语言支持的 AppImage。
+本项目提供了 `build_appimage.sh` 脚本，可以让用户根据自己的需求打包包含（ArgosTranslate离线）特定语言支持的 AppImage。
 
 ### 使用方法
 
