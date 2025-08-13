@@ -50,19 +50,10 @@ target_packages = [
 | `'pl'` | 波兰语 | Polish |
 | `'sv'` | 瑞典语 | Swedish |
 | `'da'` | 丹麦语 | Danish |
-| `'no'` | 挪威语 | Norwegian |
 | `'fi'` | 芬兰语 | Finnish |
 | `'cs'` | 捷克语 | Czech |
 | `'sk'` | 斯洛伐克语 | Slovak |
 | `'hu'` | 匈牙利语 | Hungarian |
-| `'ro'` | 罗马尼亚语 | Romanian |
-| `'bg'` | 保加利亚语 | Bulgarian |
-| `'hr'` | 克罗地亚语 | Croatian |
-| `'sl'` | 斯洛文尼亚语 | Slovenian |
-| `'et'` | 爱沙尼亚语 | Estonian |
-| `'lv'` | 拉脱维亚语 | Latvian |
-| `'lt'` | 立陶宛语 | Lithuanian |
-| `'el'` | 希腊语 | Greek |
 
 ### 亚洲语言
 | 语言代码 | 语言名称 | 英文名称 |
@@ -70,8 +61,6 @@ target_packages = [
 | `'ar'` | 阿拉伯语 | Arabic |
 | `'fa'` | 波斯语 | Persian |
 | `'hi'` | 印地语 | Hindi |
-| `'th'` | 泰语 | Thai |
-| `'vi'` | 越南语 | Vietnamese |
 | `'id'` | 印度尼西亚语 | Indonesian |
 | `'ms'` | 马来语 | Malay |
 | `'tr'` | 土耳其语 | Turkish |
@@ -81,18 +70,8 @@ target_packages = [
 | 语言代码 | 语言名称 | 英文名称 |
 |---------|---------|---------|
 | `'ca'` | 加泰罗尼亚语 | Catalan |
-| `'eu'` | 巴斯克语 | Basque |
 | `'ga'` | 爱尔兰语 | Irish |
-| `'is'` | 冰岛语 | Icelandic |
-| `'mt'` | 马耳他语 | Maltese |
-| `'cy'` | 威尔士语 | Welsh |
-| `'uk'` | 乌克兰语 | Ukrainian |
-| `'be'` | 白俄罗斯语 | Belarusian |
-| `'mk'` | 马其顿语 | Macedonian |
-| `'sq'` | 阿尔巴尼亚语 | Albanian |
 | `'az'` | 阿塞拜疆语 | Azerbaijani |
-| `'ka'` | 格鲁吉亚语 | Georgian |
-| `'hy'` | 亚美尼亚语 | Armenian |
 
 ## 配置示例
 
