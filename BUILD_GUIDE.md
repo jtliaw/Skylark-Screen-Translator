@@ -92,7 +92,7 @@ desired_langs = ['en', 'de', 'fr', 'es', 'it', 'pt', 'ru']
 
 ### 示例 4：支持亚洲语言
 ```bash
-desired_langs = ['en', 'zh', 'ja', 'ko', 'ar', 'hi', 'th', 'vi']
+desired_langs = ['en', 'zh', 'ja', 'ko', 'ar', 'hi']
 ```
 
 ## 注意事项
