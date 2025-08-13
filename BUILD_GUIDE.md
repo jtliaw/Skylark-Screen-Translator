@@ -132,4 +132,4 @@ chmod +x build_appimage.sh
 ./build_appimage.sh
 ```
 
-打包完成后，您将获得一个包含所选语言支持的完整 AppImage 文件。
+打包完成后，您将获得一个包含所选语言支持的完整 AppImage 文件，其他的所有文件即可删除！
