@@ -6,7 +6,7 @@
 
 ### 使用方法
 
-1. 下载 `build_appimage.sh` 脚本
+1. 下载 skylark_screen_translator_v2.1 以上的 Source code (zip) 
 2. 根据需要修改脚本中的语言配置
 3. 运行脚本进行打包
 
