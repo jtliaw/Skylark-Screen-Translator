@@ -1,7 +1,6 @@
 # AppImage 一键打包使用说明
 
-## 注意目前已经修复打包appimage无需一同打包argostranslate的语言包，容量可以在364MB！
-如果你还是需要包含argostranslate的语言包，可以跟随以下的方法！
+## 注意目前已经修复打包appimage无需一同打包argostranslate的语言包，容量可以在364MB！如果你还是需要包含argostranslate的语言包，可以跟随以下的方法！
 
 ## 快速开始
 
