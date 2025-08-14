@@ -1,5 +1,8 @@
 # AppImage 一键打包使用说明
 
+## 注意目前已经修复打包appimage无需一同打包argostranslate的语言包，容量可以在364MB！
+## 如果你还是需要包含argostranslate的语言包，可以跟随以下的方法！
+
 ## 快速开始
 
 本项目提供了 `build_appimage.sh` 脚本，可以让用户根据自己的需求打包包含（ArgosTranslate离线）特定语言支持的 AppImage。
