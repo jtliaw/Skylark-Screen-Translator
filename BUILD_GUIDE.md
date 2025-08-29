@@ -116,3 +116,19 @@ chmod +x build_appimage.sh
 ```
 
 打包完成后，您将获得一个包含所选语言支持的完整 AppImage 文件，其他的所有文件即可删除！
+
+
+
+##关于Lubuntu LXQT桌面使用！
+Lubuntu LXQT桌面需要安装picom并且启动picom。
+sudo apt update
+sudo apt install picom
+picom &
+
+
+编辑 Openbox autostart 文件，让系统启动默认开启picom
+nano ~/.config/openbox/autostart
+在文件末尾添加以下行： 
+picom &
+保存（Ctrl+O，回车，Ctrl+X 退出）
+运行 openbox --restart（或注销/登录）
