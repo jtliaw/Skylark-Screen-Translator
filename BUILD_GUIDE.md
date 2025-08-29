@@ -117,9 +117,8 @@ chmod +x build_appimage.sh
 
 打包完成后，您将获得一个包含所选语言支持的完整 AppImage 文件，其他的所有文件即可删除！
 
-``````
 
-##关于Lubuntu LXQT桌面使用！
+## 关于Lubuntu LXQT桌面使用！
 Lubuntu LXQT桌面需要安装picom并且启动picom。
 ```bash
 sudo apt update
