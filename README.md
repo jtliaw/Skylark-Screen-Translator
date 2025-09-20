@@ -140,6 +140,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 本项目采用开源协议发布，欢迎自由使用、修改和分发。
 
 ---
+<div align="center">
 
 *像云雀一样自由翱翔，在语言的天空中无拘无束* 🦅
 
