@@ -7,6 +7,14 @@ from urllib.parse import quote
 import urllib.request
 import urllib.parse
 
+# 尝试导入PyQt5用于显示警告对话框，如果不可用则使用控制台警告
+try:
+    from PyQt5.QtWidgets import QMessageBox
+    has_qt = True
+except ImportError:
+    has_qt = False
+    print("警告: 未安装PyQt5，将使用控制台提示代替弹窗")
+
 class OnlineTranslator:
     """在线翻译引擎管理类"""
     
@@ -52,18 +60,82 @@ class OnlineTranslator:
 
 
 class GoogleTranslator:
-    """Google翻译 - 免费版本"""
+    """Google翻译 - 支持官方API和自定义端点两种模式"""
     
     def __init__(self):
-        self.base_url = "https://translate.googleapis.com/translate_a/single"
+        # 官方API设置
+        self.api_key = None
+        self.official_base_url = "https://translation.googleapis.com/language/translate/v2"
+        
+        # 自定义端点设置
+        self.custom_endpoint = "https://translate.googleapis.com/translate_a/single"  # 默认值
+        self.use_custom_endpoint = False
+        self.has_shown_warning = False  # 确保只显示一次警告
+        
         # 语言代码映射
         self.lang_map = {
-            'zh': 'zh-cn',
+            'zh': 'zh',
             'ja': 'ja',
             'en': 'en',
             'ko': 'ko',
             'ms': 'ms'
         }
+    
+    def set_api_key(self, api_key):
+        """设置Google Cloud Translation API密钥"""
+        self.api_key = api_key
+        self.use_custom_endpoint = False
+    
+    def set_custom_endpoint(self, endpoint_url):
+        """设置自定义端点URL"""
+        self.custom_endpoint = endpoint_url
+        self.use_custom_endpoint = True
+        self.has_shown_warning = False  # 重置警告状态
+    
+    def show_custom_endpoint_warning(self):
+        """显示自定义端点使用警告"""
+        if not self.has_shown_warning:
+            self.has_shown_warning = True
+            
+            if has_qt:
+                # 使用PyQt5显示弹窗警告
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Information)
+                msg.setWindowTitle("关于自定义翻译端点")
+                
+                message_text = """
+                <b>自定义端点使用提示</b><br><br>
+                
+                您可以自行配置翻译服务的端点URL。<br><br>
+                
+                <b>【安全询问】</b><br>
+                如果您需要寻找资源，可以向AI助手咨询这类问题：<br>
+                <i>"有没有提供开源免费的谷歌翻译API的URL?"</i><br><br>
+                
+                <b>⚠️ 重要风险警告</b><br>
+                • <b>非官方接口可能违反服务条款</b><br>
+                • <b>可能导致您的IP地址被封锁</b><br>
+                • <b>服务不稳定，可能随时失效</b><br>
+                • <b>请勿翻译任何敏感或隐私信息</b><br><br>
+                
+                我们强烈推荐使用官方API以获得稳定可靠的服务。
+                """
+                
+                msg.setText(message_text)
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.exec_()
+            else:
+                # 控制台警告
+                print("\n" + "="*60)
+                print("自定义端点使用警告:")
+                print("- 非官方接口可能违反服务条款")
+                print("- 可能导致您的IP地址被封锁")
+                print("- 服务不稳定，可能随时失效")
+                print("- 请勿翻译任何敏感或隐私信息")
+                print("")
+                print("安全询问示例: 可以向AI助手咨询")
+                print('"有没有提供开源免费的谷歌翻译API的URL?"')
+                print("="*60 + "\n")
     
     def translate(self, text, from_lang, to_lang):
         """使用Google翻译API翻译文本"""
@@ -71,6 +143,47 @@ class GoogleTranslator:
         from_lang = self.lang_map.get(from_lang, from_lang)
         to_lang = self.lang_map.get(to_lang, to_lang)
         
+        # 优先使用官方API
+        if self.api_key and not self.use_custom_endpoint:
+            return self._translate_official(text, from_lang, to_lang)
+        else:
+            # 使用自定义端点（带有风险提示）
+            if not self.has_shown_warning:
+                self.show_custom_endpoint_warning()
+            return self._translate_custom(text, from_lang, to_lang)
+    
+    def _translate_official(self, text, from_lang, to_lang):
+        """使用官方Google Cloud Translation API"""
+        if not self.api_key:
+            raise Exception("未设置Google Cloud Translation API密钥")
+        
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        
+        params = {
+            'key': self.api_key,
+            'q': text,
+            'source': from_lang,
+            'target': to_lang,
+            'format': 'text'
+        }
+        
+        try:
+            response = requests.post(self.official_base_url, params=params, headers=headers, timeout=10)
+            response.raise_for_status()
+            
+            result = response.json()
+            if 'data' in result and 'translations' in result['data']:
+                return result['data']['translations'][0]['translatedText']
+            else:
+                raise Exception(f"官方API返回意外格式: {result}")
+                
+        except Exception as e:
+            raise Exception(f"Google官方API翻译失败: {e}")
+    
+    def _translate_custom(self, text, from_lang, to_lang):
+        """使用自定义端点进行翻译（可能违反服务条款）"""
         params = {
             'client': 'gtx',
             'sl': from_lang,
@@ -84,7 +197,7 @@ class GoogleTranslator:
         }
         
         try:
-            response = requests.get(self.base_url, params=params, headers=headers, timeout=10)
+            response = requests.get(self.custom_endpoint, params=params, headers=headers, timeout=10)
             response.raise_for_status()
             
             # 解析响应
@@ -92,11 +205,11 @@ class GoogleTranslator:
             if result and result[0]:
                 translated_text = ''.join([item[0] for item in result[0] if item[0]])
                 return translated_text.strip()
+            else:
+                raise Exception("自定义端点返回空或意外结果")
             
         except Exception as e:
-            raise Exception(f"Google翻译失败: {e}")
-        
-        return text
+            raise Exception(f"自定义端点翻译失败: {e}")
 
 
 class DeepLTranslator:
@@ -359,14 +472,18 @@ if __name__ == "__main__":
     # 创建在线翻译器
     online_translator = OnlineTranslator()
     
+    # 设置Google翻译使用官方API
+    google_translator = online_translator.translators['google']
+    google_translator.set_api_key("您的Google-Cloud-API密钥")  # 替换为实际密钥
+    
+    # 或者设置使用自定义端点
+    # google_translator.set_custom_endpoint("https://您从AI获取的端点/translate_a/single")
+    
     # 测试文本
     test_text = "Hello, world!"
     
-    # 测试不同的翻译引擎
-    for translator_name in online_translator.get_available_translators():
-        online_translator.set_translator(translator_name)
-        try:
-            result = online_translator.translate(test_text, 'en', 'zh')
-            print(f"{translator_name}: {result}")
-        except Exception as e:
-            print(f"{translator_name}: 失败 - {e}")
+    try:
+        result = online_translator.translate(test_text, 'en', 'zh')
+        print(f"Google翻译结果: {result}")
+    except Exception as e:
+        print(f"翻译失败: {e}")
