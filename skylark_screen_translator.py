@@ -20,7 +20,6 @@ from datetime import datetime
 from threading import Lock
 from pathlib import Path
 from online_translator import OnlineTranslator
-from google_api import GoogleAPIDialog
 
 
 def get_argos_package_dir():
@@ -2319,10 +2318,6 @@ class LanguagePackDialog(QDialog):
         self.status_timer.timeout.connect(self.update_status)
         self.status_timer.start(500)
 
-        # 添加 Google API 管理标签页
-        self.google_api_tab = GoogleAPIDialog(self)
-        self.tab_widget.addTab(self.google_api_tab, "Google API管理")
-    
     def update_status(self):
         """从状态队列更新状态标签"""
         try:
