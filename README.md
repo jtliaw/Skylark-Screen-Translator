@@ -141,7 +141,13 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 ## 📄 开源协议
 
-本项目采用开源协议发布，欢迎自由使用、修改和分发。
+本项目采用开源协议发布，欢迎自由使用、修改和分发，但不可商用！
+中文：
+⚠ 本软件的 Google 翻译接口为非官方方式，仅供学习与测试使用。
+使用该功能可能违反 Google 服务条款，风险由用户自行承担。
+English:
+⚠ This translation feature uses an unofficial Google access method and is for testing purposes only.
+Use at your own risk. You are responsible for complying with Google’s Terms of Service.
 
 ---
 <div align="center">
