@@ -81,7 +81,6 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 如果没有使用./Uninstall_LinuxSkylarkTranslator.sh卸载argos translate的语言包，再次安装后启动会出现之前的连接argostranslate卡在/home/user/.local/share/内，只需删除即可！
 
 
-##为了跨多数的linux发行版不再打包appimage,直接使用 Source code (zip) 内的Install_LinuxSkylarkTranslator.sh安装！完整安装包含argos translate已及必须的GPU硬件加速CUDA,容量需要6GB以上，任何打包方法都不再合适！
 
 
 ## 🌍 支持的语言
