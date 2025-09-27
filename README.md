@@ -141,7 +141,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 ## 📄 开源协议 & 使用声明
 
-本项目采用 **MIT License ** 发布，允许自由使用与修改，但 **禁止用于商业用途**。
+本项目采用开源项目制作，允许自由使用与修改，但 **禁止用于商业用途**。
 
 ---
 
