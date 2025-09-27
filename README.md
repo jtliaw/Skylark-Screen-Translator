@@ -63,7 +63,10 @@
 chmod +x Install_LinuxSkylarkTranslator.sh
 ./Install_LinuxSkylarkTranslator.sh
 ```
-
+```
+为了跨多数的linux发行版不再打包appimage,直接使用 Source code (zip) 内的Install_LinuxSkylarkTranslator.sh安装！
+完整安装包含argos translate已及必须的GPU硬件加速CUDA,容量需要6GB以上，任何打包都不再合适！
+```
 ### 🎯 首次配置
 1. **启动软件** - 点击桌面图标
 2. **安装语言包** - 进入【语言包管理】，选择需要的翻译方向
