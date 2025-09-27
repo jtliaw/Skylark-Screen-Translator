@@ -48,6 +48,7 @@
 除了离线的 Argos Translate 引擎，Skylark 现在也支持 在线翻译服务，适用于更高精度或更多语言方向的翻译需求：
 | 平台           | 是否需要 API 密钥     | 注册/获取地址                                                                           |
 | ------------ | --------------- | --------------------------------------------------------------------------------- |
+| 🌐 MyMemory 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 Google 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
 | 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
@@ -132,6 +133,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 ### 🌐 在线翻译服务鸣谢
 
+- 🌐 [MyMemory 翻译](https://mymemory.translated.net/) — 使用公开接口实现在线翻译（无需 API 密钥）
 - 🌐 [Google 翻译](https://translate.google.com/) — 使用公开接口实现在线翻译（无需 API 密钥）  
 - 🌐 [DeepL 翻译](https://www.deepl.com/pro-api) — 高质量神经翻译服务（通过 API 接入）  
 - 🌐 [百度翻译](https://fanyi-api.baidu.com/) — 百度开放平台提供的翻译 API 接口  
