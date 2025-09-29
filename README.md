@@ -50,7 +50,7 @@
 | ------------ | --------------- | --------------------------------------------------------------------------------- |
 | 🌐 LibreTranslate 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 MyMemory 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
-| 🌐 Google 翻译 | ❌ 无需密钥          | 非官方接口，无需注册， 仅供学习与测试用途，使用者需自行承担由此产生的一切风险与后果                                                                    |
+| 🌐 Google 翻译 |  ✅ 需要 API 密钥       |  [ Google注册]（https://cloud.google.com/translate）                                                                 |
 | 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
 | 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
 | 🌐 微软翻译   | ✅ 需要 API 密钥      | [注册获取密钥（Azure Portal）](https://azure.microsoft.com/products/cognitive-services/translator/) | 
@@ -137,7 +137,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 - 🌐 [MyMemory 翻译](https://mymemory.translated.net/) — 使用公开接口实现在线翻译（无需 API 密钥）
 - 🌐 [LibreTranslate 翻译](https://libretranslate.com/) — 使用公开接口实现在线翻译（无需 API 密钥）
-- 🌐 [Google 翻译](https://translate.google.com/) — 使用非官方接口，无需注册， 仅供学习与测试用途，使用者需自行承担由此产生的一切风险与后果（无需 API 密钥）  
+- 🌐 [Google 翻译](https://cloud.google.com/translate) —  高质量神经翻译服务（通过 API 接入）
 - 🌐 [DeepL 翻译](https://www.deepl.com/pro-api) — 高质量神经翻译服务（通过 API 接入）  
 - 🌐 [百度翻译](https://fanyi-api.baidu.com/) — 百度开放平台提供的翻译 API 接口  
 - 🌐 [Microsoft Translator](https://azure.microsoft.com/products/cognitive-services/translator/) — Azure 提供的多语言在线翻译服务
