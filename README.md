@@ -50,7 +50,7 @@
 | ------------ | --------------- | --------------------------------------------------------------------------------- |
 | 🌐 LibreTranslate 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
 | 🌐 MyMemory 翻译 | ❌ 无需密钥          | 内置公共接口，无需注册                                                                       |
-| 🌐 Google 翻译 |  ✅ 需要 API 密钥       |  [ Google注册]（https://cloud.google.com/translate）                                                                 |
+| 🌐 Google 翻译 |  ✅ 需要 API 密钥       |  [Google注册](https://cloud.google.com/translate)                                                                 |
 | 🌐 DeepL 翻译  | ✅ 需要 API 密钥     | [DeepL Pro 注册](https://www.deepl.com/pro-api)                                     |
 | 🌐 百度翻译      | ✅ 需要 APP ID 与密钥 | [百度翻译开放平台](https://fanyi-api.baidu.com/)                                          |
 | 🌐 微软翻译   | ✅ 需要 API 密钥      | [注册获取密钥（Azure Portal）](https://azure.microsoft.com/products/cognitive-services/translator/) | 
