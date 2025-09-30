@@ -148,9 +148,6 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 本项目采用开源项目制作，允许自由使用与修改，**但禁止用于商业用途**。
 
----
-
-
 
 ---
 <div align="center">
