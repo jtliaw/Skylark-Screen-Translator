@@ -150,15 +150,6 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 
 ---
 
-### ⚠ 风险提示 / Risk Disclaimer
-
-> 🚨 **Google 翻译功能为非官方实现方式，仅供学习与测试用途。**  
-> 使用该功能可能违反 Google 服务条款，并可能导致封禁或服务限制。  
-> **使用者需自行承担由此产生的一切风险与后果。**
-
-> 🚨 **The Google translation feature is based on unofficial access and is for testing purposes only.**  
-> It may violate Google's Terms of Service and could result in access blocking.  
-> **Use at your own risk.**
 
 
 ---
