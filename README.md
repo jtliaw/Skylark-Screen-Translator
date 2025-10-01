@@ -78,9 +78,12 @@ chmod +x Install_LinuxSkylarkTranslator.sh
 chmod +x Uninstall_LinuxSkylarkTranslator.sh
 ./Uninstall_LinuxSkylarkTranslator.sh
 ```
-如果没有使用./Uninstall_LinuxSkylarkTranslator.sh卸载argos translate的语言包，再次安装后启动会出现之前的连接argostranslate卡在/home/user/.local/share/内，只需删除即可！
+## ⚡ 2分钟快速开始（Windows）
 
+Windows版因为离线翻译argos translate需要的环境容量非常大，完全打包后无法分享！所以只有online版！
 
+下载SkylarkTranslator_Windows_online后解压，无需安装即可使用！
+OCR语言包默认安装在用户文件夹内的APPDATA内！
 
 
 ## 🌍 支持的语言
@@ -114,7 +117,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 - **🔗 多API集成** - 统一的在线翻译服务接口
 
 ### ⚙️ 系统要求
-- **🐧 操作系统**: Linux (推荐 Ubuntu/Debian)
+- **🐧 操作系统**: Linux (推荐 Ubuntu/Debian) / Windows
 - **💾 处理器**: 支持 SSE4.1 指令集
 - **🌐 网络**: 可选（离线翻译无需网络）
 
