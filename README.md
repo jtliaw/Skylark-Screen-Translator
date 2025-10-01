@@ -88,7 +88,7 @@ Windows版因为离线翻译argos translate需要的环境容量非常大，完�
 OCR语言包默认安装在用户文件夹内的APPDATA内！
 
 
-
+---
 
 
 ## 🌍 支持的语言
