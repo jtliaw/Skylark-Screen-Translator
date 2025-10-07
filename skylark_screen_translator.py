@@ -5603,7 +5603,7 @@ def main():
         # 禁用Qt的自动DPI缩放
         os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "0"
         os.environ["QT_ENABLE_HIGHDPI_SCALING"] = "0"
-        os.environ["QT_SCALE_FACTOR"] = "1.15"
+        os.environ["QT_SCALE_FACTOR"] = "1.25"
 
     # Linux/macOS 保持高DPI支持
     else:
