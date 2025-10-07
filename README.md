@@ -85,6 +85,7 @@ chmod +x Uninstall_LinuxSkylarkTranslator.sh
 Windows版因为离线翻译argos translate需要的环境容量非常大，完全打包后无法分享！所以只有online版！
 
 - **下载SkylarkTranslator_Windows_online后解压，无需安装即可使用！
+- **第1次使用需要到软件内的语言包设置安装需要的ocr语言
 - **OCR语言包默认安装在用户文件夹内的APPDATA内！
 
 
