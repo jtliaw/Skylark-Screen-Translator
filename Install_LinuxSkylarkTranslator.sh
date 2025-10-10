@@ -577,7 +577,7 @@ verify_installation() {
 create_desktop_icon() {
     local script_path="$SCRIPT_DIR/$SCRIPT_NAME"
     local venv_python="$SCRIPT_DIR/$VENV_DIR/bin/python3"
-    local icon_path="$SCRIPT_DIR/icon.png"
+    local icon_path="$SCRIPT_DIR/skylark.png"
     
     # 创建直接启动脚本
     local direct_launcher="$SCRIPT_DIR/skylark_direct.sh"
